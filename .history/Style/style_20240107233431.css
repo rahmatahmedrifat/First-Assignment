@@ -1,0 +1,33 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container{
+    width: 82%;
+    margin: 0 auto;
+}
+#banner{
+    margin-top: 30px;
+}
+.banner-container{
+    background-image: url(../images/Banner\ Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    padding: 177px 0px;
+}
+
+.banner-content .celebration{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

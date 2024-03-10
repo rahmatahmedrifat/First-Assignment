@@ -1,0 +1,230 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container{
+    width: 82%;
+    margin: 0 auto;
+}
+/* primary content */
+.primary-summery{
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    color: #F00;
+    line-height: normal;
+}
+/* banner section related css style */
+#banner{
+    margin-top: 30px;
+}
+.banner-container{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner\ Image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    padding: 177px 0px;
+}
+.banner-container .banner-content{
+    width: 632px;
+    margin: 0 auto;
+}
+.banner-container .banner-content .celebration{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+    z-index: 99;
+}
+.banner-container .banner-content .banner-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+/* categories section related css style */
+
+#categories{
+    margin: 120px 0px;
+}
+.categories-container{
+    text-align: center;
+}
+.categories-container .categories-discount{
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    color: #F00;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+.categories-title{
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    color: #070211;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+.categories-container .categories-img{
+    width: 800px;
+    margin: 0 auto;
+}
+.categories-img #new-year-img{
+    max-width: 100%;
+}
+
+/* party-banner section css style  */
+#party-banner{
+    
+}
+.party-container{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    padding: 70px 70px;
+}
+.party-container .party-content{
+    width: 900px;
+}
+.party-content .party-title{
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    color: #FFF;
+    line-height: 88px;
+    letter-spacing: 3px;
+}
+.party-content .party-description{
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.80);
+    line-height: 30px;
+    margin-top: 20px;
+}
+#join-now-btn{
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
+    background: transparent;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    margin-top: 48px;
+    margin-left: 32px;
+}
+.party-container .party-img{
+    width: 270px;
+    max-width: 100%;
+}
+
+/* Announce section css style */
+
+#announce{
+    margin: 120px 0px;
+}
+.announce-content{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 0;
+    text-align: center;
+}
+.announce-content .announce-title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.announce-content .announce-title .title-color{
+    color: #F00;
+}
+.announce-btn{
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    margin-top: 48px;
+}
+.announce-btn:hover{
+    background: #fff;
+    color: #f00;
+    outline: 1px solid #F00;
+}
+/* best-offer section style css */
+
+.best-offer-title{
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    color: #070211;
+    line-height: normal;
+}
+.best-offer-description{
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 32px;
+    margin-top: 22px;
+}
+.best-offer-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.best-offer-content{
+    width: 600px;
+}
+.best-offer-img-content{
+    width: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+.best-offer-img-content .best-offer-img{
+    max-width: 363px;
+}
+.best-offer-year{
+    width: ;
+}
